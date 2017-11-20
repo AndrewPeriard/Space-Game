@@ -49,7 +49,7 @@ public class Board extends JPanel implements ActionListener {
     
     private void loadBackground() {
         
-        ImageIcon ii = new ImageIcon("./images/spacefull.jpg");
+        ImageIcon ii = new ImageIcon("./src/images/spacefull.jpg");
         space = ii.getImage();
     }
     

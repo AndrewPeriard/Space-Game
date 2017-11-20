@@ -30,7 +30,7 @@ public class Ship extends Sprite{
     
     private void initShip(){
         missiles = new ArrayList();
-        loadImage("./images/enterprise3.png");
+        loadImage("./src/images/enterprise3.png");
         getImageDimensions();
 //        ImageIcon ii = new ImageIcon("D:/Space Game In Space/enterprise3.png");
 //        image = ii.getImage();
