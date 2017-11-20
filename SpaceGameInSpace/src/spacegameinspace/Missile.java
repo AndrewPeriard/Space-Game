@@ -21,7 +21,7 @@ public class Missile extends Sprite{
     
     private void initMissile() {
         
-        loadImage("./src/images/missile.png");
+        loadImage("/images/missile.png");
         getImageDimensions();
     }
 

@@ -28,7 +28,7 @@ public class Sprite {
 
     protected void loadImage(String imageName) {
 
-        ImageIcon ii = new ImageIcon(imageName);
+        ImageIcon ii = new ImageIcon(this.getClass().getResource(imageName));
         image = ii.getImage();
     }
     
